@@ -1,0 +1,26 @@
+[project]
+name = "mojo-arrow"
+version = "0.1.0"
+description = "Apache Arrow compute kernels written in Mojo, zero-copy from pyarrow"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Lee Penkman", email = "leepenkman@gmail.com" }]
+keywords = ["mojo", "arrow", "pyarrow", "columnar", "performance"]
+dependencies = ["pyarrow", "numpy"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/lee101/mojo-arrow"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "python" }
+
+[tool.setuptools.packages.find]
+where = ["python"]
