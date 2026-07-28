@@ -116,6 +116,14 @@ dictionary encoding, joins, multi-column group-by, IPC reading, and threading.
 are present: those two carry most analytic columns, and every added width is
 another monomorphic export.
 
+## Related
+
+- [mojosub](https://github.com/lee101/mojosub) — Python subset → Mojo transpiler with a JIT
+- [mojo-sklearn](https://github.com/lee101/mojo-sklearn) — scikit-learn's core estimators in Mojo
+- [mojo-plotly](https://github.com/lee101/mojo-plotly) — plotly figures with Mojo kernels
+- [mojo-notebook](https://github.com/lee101/mojo-notebook) — reactive Python + Mojo notebooks
+- [mojo-wasm](https://github.com/lee101/mojo-wasm) — compile Mojo to WebAssembly
+
 ## License
 
 MIT
