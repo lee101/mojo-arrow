@@ -1,5 +1,6 @@
 .pixi/
-build/
+build/*
+!build/build.sh
 __pycache__/
 *.egg-info/
 .pytest_cache/

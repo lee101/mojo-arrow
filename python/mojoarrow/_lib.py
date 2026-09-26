@@ -19,7 +19,7 @@ import pyarrow as pa
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SRC = os.path.join(ROOT, "src")
-LIB = os.path.join(ROOT, "build", "capi.so")
+LIB = os.path.join(ROOT, "dist", "libmojo-arrow.so")
 
 I = ctypes.c_int64
 F = ctypes.c_double
